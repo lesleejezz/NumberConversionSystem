@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number System Conversion</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+
+    <div class="containerr">
+       <br><h1 class="intro">Number Conversion System</h1>
+       <h3 class="intro">Programmer: Leslee Jezzel L. Buot</h3><br>
+    </div>
+
+    <div class="container">
+       
+    <select class="iType" id="ipType">
+        <option value="ipdec">Decimal</option>
+        <option value="ipbin">Binary</option>
+        <option value="ipoct">Octal</option>
+        <option value="iphex">Hexadecimal</option>
+    </select>
+    <label class="to"><b>&nbspto&nbsp</b></label>
+    <select class="oType" id="opType">
+        <option value="opdec">Decimal</option>
+        <option value="opbin">Binary</option>
+        <option value="opoct">Octal</option>
+        <option value="ophex">Hexadecimal</option>
+    </select>
+    
+    <input class="iNum" id="ipNum"><br>
+    <button class="btn1" onclick="convert()">= CONVERT</button>
+    <button class="btn2" onclick="clearsInO()"> ⨉ RESET</button><br>
+    <input class="oNum" id="opNum">
+
+    </div>
+
+</body>
+<script src="index.js"></script>
+</html>
